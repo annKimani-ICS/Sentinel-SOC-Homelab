@@ -1,0 +1,42 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.pfx
+*.p12
+*.key
+*.crt
+*.cer
+*.jks
+secrets.*
+credentials.*
+*token*
+
+# Azure and cloud config artifacts
+azureProfile.json
+accessTokens.json
+*.publishsettings
+terraform.tfvars
+*.tfstate
+*.tfstate.*
+
+# Exports that may include personal/sensitive metadata
+*.har
+*.pcap
