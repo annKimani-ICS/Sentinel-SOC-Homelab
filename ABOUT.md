@@ -25,6 +25,8 @@ This project documents my end-to-end SOC homelab implementation using Microsoft 
 
 - Resource groups: `RG-SOC-Lab` and default `NetworkWatcherRG`
 - Virtual machine: `CORP-NET-EAST-1`
+- Virtual network: `Vnet0-soc-lab` used for VM placement
+- Data Collection Rule wired from VM to Log Analytics for Windows Event Logs
 - Sentinel workspace connected from the new Defender portal
 - Three Microsoft data connectors connected
 - Activity logs and event query evidence collected

@@ -13,6 +13,9 @@ This file summarizes the implementation flow represented by the screenshots in `
 7. Uploaded and validated a watchlist
 8. Ran watchlist-enriched queries and confirmed output fields
 9. Built workbook visualization from enriched query data
+10. Validated DCR data path (VM -> Windows Event Logs -> Log Analytics workspace)
+11. Confirmed virtual network configuration for VM placement
+12. Reviewed full resource group topology to validate architecture completeness
 
 ## Evidence reference
 
@@ -25,3 +28,6 @@ This file summarizes the implementation flow represented by the screenshots in `
 - `07-watchlist-overview.png`
 - `08-watchlist-results-kql.png`
 - `09-workbook-visualization.png`
+- `10-dcr-visualizer.png`
+- `11-virtual-network.png`
+- `12-resource-group-topology.png`

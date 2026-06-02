@@ -13,6 +13,9 @@ This folder contains sanitized evidence from the Sentinel SOC homelab.
 - `screenshots/07-watchlist-overview.png` - watchlist configuration
 - `screenshots/08-watchlist-results-kql.png` - watchlist-enriched query results
 - `screenshots/09-workbook-visualization.png` - workbook visualization output
+- `screenshots/10-dcr-visualizer.png` - DCR flow from VM to workspace
+- `screenshots/11-virtual-network.png` - virtual network used by lab VM
+- `screenshots/12-resource-group-topology.png` - full `RG-SOC-Lab` resource group visualization
 
 ## Sanitization note
 

@@ -7,6 +7,8 @@ Lab reference: [Microsoft Sentinel SIEM Full Tutorial](https://youtu.be/g5JL2RIb
 ## Project highlights
 
 - Created core Azure resources (`RG-SOC-Lab`, VM, Log Analytics workspace, Sentinel setup)
+- Added network segmentation with a dedicated virtual network for the lab VM
+- Configured a Data Collection Rule (DCR) pipeline from VM -> Windows Event Logs -> Log Analytics
 - Connected data sources in Microsoft Sentinel (3 connectors connected)
 - Queried and investigated security events with KQL
 - Built watchlist-driven enrichment and a workbook visualization
@@ -25,6 +27,9 @@ All evidence is in `artifacts/screenshots/`:
 7. Watchlist configuration
 8. Watchlist query result sample
 9. Workbook visualization
+10. Data Collection Rule visualizer showing ingestion path
+11. Virtual network used for VM placement
+12. Full `RG-SOC-Lab` resource topology visualization
 
 ## Skills demonstrated
 
